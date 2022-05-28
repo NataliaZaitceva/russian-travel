@@ -1,27 +1,23 @@
 .footer {
     max-width: 1280px;
     display: flex;
-    margin-right: 48px;
-    margin-bottom: 24px;
-    padding: 92px 0 0 0;
+    margin: 0;
+    padding: 92px 48px 24px 48px;
     justify-content: space-between;
 
 }
 
-@media screen and (max-width: 1024px) {
-    .footer {
-        margin-right: 24px;
-        margin-left: 24px;
 
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 88px 24px 24px 24px;
+        line-height: 12px;
     }
 }
 
-@media screen and (max-width: 762px) {
+@media screen and (max-width: 728px) {
     .footer {
+        padding: 64px 118px 16px 16px;
         flex-direction: column;
-        max-width: 58.13%;
-        margin: 0;
-        padding-left: 16px;
-        padding-top: 64px;
     }
 }

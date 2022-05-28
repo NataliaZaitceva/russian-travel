@@ -1,44 +1,43 @@
 .cover__title {
-max-width: 75%;
- margin: 0;
+    max-width: 75%;
+    margin: 0;
     align-items: center;
     justify-content: center;
-text-align: center;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 1.09;
-    color: #FFFFFF;
-    z-index: 3;
-   
-}
-
-@media screen and (max-width: 1024px){
-    .cover__title{
-font-size: 72px;
+    text-align: center;
     font-weight: 900;
+    font-size: 72px;
     line-height: 76px;
+    color: #FFFFFF;
+    z-index: 4;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 76px;
     }
 }
 
-@media screen and (max-width: 768px){
-    .cover__title{
-        width: calc(100% - 208px);
+@media screen and (max-width: 768px) {
+    .cover__title {
+        width: 72.92%;
     }
 }
 
 
-@media screen and (max-width: 767px){
-    .cover__title{
+@media screen and (max-width: 600px) {
+    .cover__title {
         font-size: 32px;
         line-height: 35px;
         width: 90%;
     }
 }
 
-@media screen and (max-width: 200px){
-    .cover__title{
-   font-size: 32px;
+@media screen and (max-width: 320px) {
+    .cover__title {
+        font-size: 32px;
         line-height: 35px;
-        width: 90%;
     }
 }
