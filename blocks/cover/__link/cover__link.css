@@ -10,9 +10,8 @@
     position: relative;
     z-index: 1;
     text-decoration: none;
-    padding: 92px auto 0 auto;
     background-image: url(../../../images/cover-trains.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -48,11 +47,13 @@
     .cover__link {
         max-width: 1024px;
         margin: 0;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__link {
         width: 100%;
+        padding: 0;
     }
 }
