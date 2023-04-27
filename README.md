@@ -13,5 +13,7 @@
 
 #### Cсылка на проект
 * (https://nataliazaitceva.github.io/russian-travel/index.html)
+ 
+##### Статус проекта 
 
-
+Проект закончен, доработки не планируются
